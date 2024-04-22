@@ -20,3 +20,5 @@ for nombres in lista_nombre:
   if nombres == nombre:
     print(f"{nombre} si está en la lista")
     break
+else:
+  print(f"{nombre} no está en la lista")
